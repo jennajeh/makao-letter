@@ -1,0 +1,42 @@
+* {
+  font-size: 16px;
+  font-family: "Noto Sans", "sans-serif";
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

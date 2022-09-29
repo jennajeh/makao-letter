@@ -1,0 +1,53 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6vw 12vw 6vw;
+}
+
+.posts .cards .card {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.posts .cards .card a {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 5fr 0.5fr;
+  grid-template-areas:
+    "card-title card-title card-title"
+    "summary summary summary"
+    "time time reaction";
+  height: 94vw;
+  padding: 5vw;
+  color: #000;
+}
+
+.posts .cards .card .card-title {
+  font-size: 4vw;
+  font-weight: 700;
+  grid-area: card-title;
+}
+
+.posts .cards .card .summary {
+  grid-area: summary;
+}
+
+.posts .cards .card .time {
+  grid-area: time;
+}
+
+.posts .cards .card .reaction {
+  grid-area: reaction;
+}
+
+.posts .more {
+  font-size: 5vw;
+  margin: 8vw 0;
+  padding: 3vw 9vw;
+  background-color: #4593fc;
+  border: 1px solid #000;
+  border-radius: 10vw;
+  color: #fff;
+}
